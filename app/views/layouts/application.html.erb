@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipies Application</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+    <%= link_to "myRecipes", "", class: "btn btn-lg btn-success", id: "logo" %>
+    <div class="nav_item">
+      <%= link_to "likk1", "", class: "btn btn-default btn-warning" %>
+      <%= link_to "likk2", "", class: "btn btn-default btn-warning" %>
+      <%= link_to "likk3", "", class: "btn btn-default btn-warning" %>
+    </div>
+</div>  
+  </nav>
+  <div class="container">
+  <%= yield %>
+  
+  <div class="footer">
+  <p>
+    &copy; My recipies 2015.
+  </p>
+</div>
+</div>
+
+
+</body>
+</html>
