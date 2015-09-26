@@ -26,3 +26,18 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+-- testing specs for recipes // the test driven programming
+
+- name must be present
+- name must be between 5 chars less than 100 characters
+- so=ummaty must be present
+- summary must be between 10 characters and less than 150 characters
+- description must be present
+- description must be between 20 and 500 characters
+- chef id must be present association is mandatory, but the association is not created yet in the database
+ This is the starting point for making the tests in the test driven programming
+ 
+ 
+- 
